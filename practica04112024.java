@@ -33,6 +33,7 @@ public class practica04112024 extends JPanel {
 
     public static void main(String[] args) {
         JFrame ventana = new JFrame("Ventana 3D");
+        System.setProperty("sun.awt.noerasebackground", "true");
         practica04112024 panel = new practica04112024();
         ventana.add(panel);
         ventana.setSize(700, 700);
